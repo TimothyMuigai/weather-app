@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class=" heading">
+
+        <h1>Weather App</h1>
+
+        <div class="inputs">
+
+            <input type="text" placeholder="Enter country or city">
+
+            <button id="searchBtn">Search</button>
+
+        </div>
+
+        <div class="container">
+            <p id="errors" style="display: none;" >wrong data</p>
+            <h2>Country</h2>
+
+            <img src="" alt="weather-Icons">
+
+            <div class="display">
+
+                <div class="humidity">
+                    
+                    <div class="humid-img"></div>
+
+                    <h4 id="humidDetails">Humidity amount: --%</h4>
+                </div>
+
+                <div class="wind">
+
+                    <div class="wind-img"></div>
+
+                    <h4 id="windDetails">Wind speed: --km/h</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="fetch.js"></script>
+</body>
+</html>
